@@ -14,7 +14,7 @@ import java.util.Date;
 public class DateFormat {
     public static void main(String[] args) {
         //1、普通的时间转换
-        String string = new SimpleDateFormat("/yyyyMM/dd/").format(new Date()).toString();
+        String string = new SimpleDateFormat("/yyyyMM/dd/").format(new Date());
         System.out.println(string);
         System.out.println("-------------------------------");
         //2、日历类的时间操作
