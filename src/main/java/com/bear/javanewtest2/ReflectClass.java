@@ -2,6 +2,7 @@ package com.bear.javanewtest2;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 /**
@@ -13,7 +14,7 @@ import java.lang.reflect.Method;
 
 public class ReflectClass {
 
-    public static void main(String[] args) throws ClassNotFoundException {
+    public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, IllegalAccessException, InstantiationException {
         Class class1 = UserManagerImpl.class;
         Class class2 = Class.forName("com.bear.javanewtest2.UserManagerImpl");
         UserManager userManager = new UserManagerImpl();
@@ -47,6 +48,10 @@ public class ReflectClass {
             System.out.println("获取构造器：" + constructor);
         }
 
+        //通过反射调用方法
+        Method method = class1.getMethod("addUser", String.class, String.class);
+        UserManager userManager2 = (UserManager) class1.newInstance();
+        method.invoke(userManager2, "bear", "123456");
 
     }
 }
