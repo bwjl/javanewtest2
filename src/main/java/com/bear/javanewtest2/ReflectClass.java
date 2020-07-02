@@ -1,5 +1,9 @@
 package com.bear.javanewtest2;
 
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+
 /**
  * Created with IntelliJ IDEA.
  * User: bear
@@ -24,6 +28,25 @@ public class ReflectClass {
         System.out.println(class1 == class2);
         System.out.println(class2 == class3);
         System.out.println(class3 == class4);
+
+        //获取field
+        Field[] fields = class1.getDeclaredFields();
+        for (Field field : fields) {
+            System.out.println("获取成员变量：" + field);
+        }
+
+        //获取方法
+        Method[] methods = class1.getDeclaredMethods();
+        for (Method method : methods) {
+            System.out.println("获取成员方法：" + method);
+        }
+
+        //获取构造方法
+        Constructor[] constructors = class1.getDeclaredConstructors();
+        for (Constructor constructor : constructors) {
+            System.out.println("获取构造器：" + constructor);
+        }
+
 
     }
 }

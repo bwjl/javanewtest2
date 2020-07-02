@@ -9,6 +9,9 @@ package com.bear.javanewtest2;
 
 public class UserManagerImpl implements UserManager {
 
+    private String name;
+    private Integer age;
+
     @Override
     public void addUser(String username, String password) {
         System.out.println("调用了新增的方法！");
@@ -19,5 +22,9 @@ public class UserManagerImpl implements UserManager {
     public void delUser(String username) {
         System.out.println("调用了删除的方法！");
         System.out.println("传入参数为 userName: " + username);
+    }
+
+    private void handleData() {
+
     }
 }
