@@ -15,7 +15,7 @@ import java.lang.reflect.Method;
 public class ReflectClass {
 
     public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, IllegalAccessException, InstantiationException {
-        Class class1 = UserManagerImpl.class;
+        Class<UserManagerImpl> class1 = UserManagerImpl.class;
         Class class2 = Class.forName("com.bear.javanewtest2.UserManagerImpl");
         UserManager userManager = new UserManagerImpl();
         UserManager userManager1 = new UserManagerImpl(); //一个类只有一个Class实例，无论通过哪种方式获取，得到的都是同一个Class对象
