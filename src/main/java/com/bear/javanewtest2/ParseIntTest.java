@@ -1,5 +1,7 @@
 package com.bear.javanewtest2;
 
+import java.util.Arrays;
+
 /**
  * Created with IntelliJ IDEA.
  * User: bear
@@ -21,9 +23,12 @@ public class ParseIntTest {
 //            System.out.println("finally");
 //        }
 
-        String classroom = "001hello";
+        String classroom = "001";
         System.out.println(Integer.parseInt(classroom));
         System.out.println(Integer.valueOf(classroom));
+
+        int[] array = null;
+        System.out.println(Arrays.toString(array));
 
 
     }
