@@ -21,9 +21,15 @@ public class ArrayListDemo {
         list.add("456");
         list.add("aaa");
 
+        System.out.println("-----------for-----------");
         for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i));
         }
+
+        System.out.println("-----------forEach-----------");
+        list.forEach(item -> {
+            System.out.println(item);
+        });
 
     }
 
