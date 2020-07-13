@@ -32,6 +32,7 @@ public class HashMapDemo {
             System.out.println(value);
         }
 
+        System.out.println("--------HashMap---------");
         for (Map.Entry<String, String> entry : map.entrySet()) {
             String key = entry.getKey();
             String value = entry.getValue();
