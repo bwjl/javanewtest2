@@ -19,6 +19,7 @@ public class ArrayListDemo {
         list.add("dog");
         list.add("123");
         list.add("456");
+        list.add("aaa");
 
         for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i));
