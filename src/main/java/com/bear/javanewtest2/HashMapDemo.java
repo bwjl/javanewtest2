@@ -44,5 +44,9 @@ public class HashMapDemo {
             System.out.println("key:" + entry.getKey() + ";value:" + entry.getValue());
         }
 
+        //boolean value;
+        System.out.println("-------foreach LinkedHashMap---------");
+        map1.forEach((key, value) -> System.out.println(value));
+
     }
 }
