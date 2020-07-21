@@ -35,6 +35,10 @@ public class ArrayListDemo {
 //        list1.add(18);
 //        list1.add("bear"); //list的元素必须同一个类型
 
+//        List<?> list2 = new ArrayList<>(); //必须声明List<?>类型
+//        list2.add(1);
+//        list2.add(2);
+
 
     }
 
