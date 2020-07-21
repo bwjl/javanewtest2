@@ -31,6 +31,11 @@ public class ArrayListDemo {
             System.out.println(item);
         });
 
+//        List<?> list1 = new ArrayList<>();
+//        list1.add(18);
+//        list1.add("bear"); //list的元素必须同一个类型
+
+
     }
 
 }
