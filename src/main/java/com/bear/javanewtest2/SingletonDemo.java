@@ -7,5 +7,5 @@ package com.bear.javanewtest2;
  * Description: 单例模式
  */
 
-public class Singleton {
+public class SingletonDemo {
 }
