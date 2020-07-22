@@ -39,7 +39,6 @@ public class ArrayListDemo {
 //        list2.add(1);
 //        list2.add(2);
 
-
     }
 
 }
