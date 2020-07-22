@@ -9,8 +9,12 @@ package com.bear.javanewtest2;
 
 public class NullDemo {
 
+    //private static boolean name;
+    private static String name;
 
     public static void main(String[] args) {
+
+        System.out.println(name);
 
     }
 }
