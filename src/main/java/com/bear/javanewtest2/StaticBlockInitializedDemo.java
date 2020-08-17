@@ -8,8 +8,7 @@ package com.bear.javanewtest2;
  * 首先，类属性变量开始赋值，a被设置为3，b默认初始化为 0 ，接着运行static 块
  */
 
-public class StaticDemo {
-
+public class StaticBlockInitializedDemo {
 
     static int a = 3;
     static int b;
