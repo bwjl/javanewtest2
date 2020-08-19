@@ -7,7 +7,7 @@ package com.bear.javanewtest2;
  * Description: final修饰的属性表明是一个常数（创建后不能被修改）
  */
 
-public class FinalStatic {
+public class FinalStaticPropertyDemo {
 
     private final static Integer age1 = 18;
     private static Integer age2 = 30;
