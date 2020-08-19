@@ -7,17 +7,17 @@ package com.bear.javanewtest2;
  * Description: final方法不允许被重写
  */
 
-public class FinalStaticMethodDemo extends Coder implements FinalStaticMethodInterfaceDemo {
+public class FinalStaticMethodDemo extends Coder {
 
-    @Override
-    final void fixBug() {
-
-    }
-
-    @Override
-    final static void writeCode() {
-
-    }
+//    @Override
+//    final void fixBug() {
+//
+//    }
+//
+//    @Override
+//    final static void writeCode() {
+//
+//    }
 }
 
 
@@ -29,7 +29,6 @@ class Coder {
     final void fixBug() {
 
     }
-
 
     /**
      * 写代码
