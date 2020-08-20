@@ -10,9 +10,10 @@ package com.bear.javanewtest2;
 public class EnumConstDemo {
 
     public static void main(String[] args) {
-        System.out.println(Size.SMALL); //SMALL
-        System.out.println(Size.MIDDLE); //MIDDLE
-        System.out.println(Size.BIG); //BIG
+        System.out.println(Size.SMALL); //SMALL ordinal 0
+        System.out.println(Size.MIDDLE); //MIDDLE ordinal 1
+        System.out.println(Size.BIG); //BIG ordinal 2
+        System.out.println("hello"); //BIG
 
     }
 }

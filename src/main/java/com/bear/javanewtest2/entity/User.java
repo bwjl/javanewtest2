@@ -36,4 +36,8 @@ public class User {
     public void setHeight(Double height) {
         this.height = height;
     }
+
+    public String toString() {
+        return "{\"age\":" + age + ",\"height\": " + height + " ,\"name\":" + name + "}";
+    }
 }
