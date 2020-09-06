@@ -10,7 +10,9 @@ package com.bear.javanewtest2;
 public class SuperConstructorDemo {
 
     public static void main(String[] args) {
-        Son2 son1 = new Son2();
+        Son2 son1 = new Son2("bear");
+        Son2 son2 = new Son2();
+        Son2 son3 = new Son2("bear", 19);
         //System.out.println(son1.getFatherName());
     }
 
@@ -22,9 +24,13 @@ class Father2 {
         System.out.println("I am father constructor1");
     }
 
-    Father2() {
-        System.out.println("I am father constructor2");
+    Father2(String name) {
+        System.out.println("I am father constructor3");
     }
+
+//    Father2() {
+//        System.out.println("I am father constructor2");
+//    }
 
 
 }
@@ -36,7 +42,17 @@ class Son2 extends Father2 {
 //    }
 
     Son2() {
+        super("hello");
         System.out.println("I am Son constructor1");
     }
 
+    Son2(String name) {
+        super("hello");
+        System.out.println("I am Son constructor2");
+    }
+
+    Son2(String name, int age) {
+        super("hello");
+        System.out.println("I am Son constructor3");
+    }
 }
