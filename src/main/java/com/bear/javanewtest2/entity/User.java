@@ -12,6 +12,15 @@ public class User {
     private String name;
     private Integer age;
     private Double height;
+    private int size;
+
+    public void setSize(int size) {
+        this.size = size;
+    }
+
+    public int getSize() {
+        return size;
+    }
 
     public String getName() {
         return name;
@@ -38,6 +47,6 @@ public class User {
     }
 
     public String toString() {
-        return "{\"age\":" + age + ",\"height\": " + height + " ,\"name\":" + name + "}";
+        return "{\"age\":" + age + ",\"height\": " + height + " ,\"name\":" + name + " ,\"size\": " + size + "}";
     }
 }
