@@ -14,6 +14,15 @@ public class AppendDemo {
 
         str.append(" love linyu");
 
+        String a = "aname";
+        //String b =  "bname";
+
+        String b = "";
+
+        b += a;
+
+        System.out.println(b);
+
         System.out.println(str);
     }
 }
