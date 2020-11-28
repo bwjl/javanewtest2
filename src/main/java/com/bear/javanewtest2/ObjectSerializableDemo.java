@@ -28,9 +28,9 @@ public class ObjectSerializableDemo {
     }
 
     /**
-     * 序列化对象
+     * 序列化
      *
-     * @return
+     * @throws IOException
      */
     public static void serializableObject() throws IOException {
         Article article = new Article();
@@ -45,6 +45,9 @@ public class ObjectSerializableDemo {
 
     /**
      * 反序列化
+     * @return
+     * @throws IOException
+     * @throws ClassNotFoundException
      */
     public static Article unserializableObject() throws IOException, ClassNotFoundException {
         ObjectInputStream objectInputStream = new ObjectInputStream(new FileInputStream(new File("Article.txt")));
