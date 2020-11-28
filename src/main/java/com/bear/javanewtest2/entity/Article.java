@@ -9,7 +9,17 @@ import java.io.Serializable;
  * @since 2020-11-28 16:17:22
  */
 public class Article implements Serializable {
-    private static final long serialVersionUID = -85708722125398142L;
+    //private static final long serialVersionUID = -85708722125398142L;
+
+    private Integer age;
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
+    }
 
     private String name;
 
