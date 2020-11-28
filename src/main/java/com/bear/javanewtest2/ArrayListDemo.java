@@ -31,6 +31,12 @@ public class ArrayListDemo {
             System.out.println(item);
         });
 
+        //list.forEach();
+
+        for (String item : list) {
+            System.out.println("foreach:" + item);
+        }
+
 //        List<?> list1 = new ArrayList<>();
 //        list1.add(18);
 //        list1.add("bear"); //list的元素必须同一个类型
