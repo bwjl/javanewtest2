@@ -17,10 +17,10 @@ public class ObjectSerializableDemo {
 
         //try {
         //先序列化Article
-        //serializableObject();
+        serializableObject(); //Exception in thread "main" java.io.NotSerializableException: com.bear.javanewtest2.entity.Article
         //然后去掉Article对象serialVersionUID 进行反序列化
-        Article article = unserializableObject();
-        System.out.println(article.getTitle()); //Exception in thread "main" java.io.InvalidClassException: com.bear.javanewtest2.entity.Article; local class incompatible: stream classdesc serialVersionUID = -85708722125398142, local class serialVersionUID = 8631348723776379286
+//        Article article = unserializableObject();
+//        System.out.println(article.getTitle()); //Exception in thread "main" java.io.InvalidClassException: com.bear.javanewtest2.entity.Article; local class incompatible: stream classdesc serialVersionUID = -85708722125398142, local class serialVersionUID = 8631348723776379286
 
 //        } catch (IOException | ClassNotFoundException exception) {
 //            System.out.println(exception.getMessage() + exception.getStackTrace());

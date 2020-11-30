@@ -8,7 +8,7 @@ import java.io.Serializable;
  * @author makejava
  * @since 2020-11-28 16:17:22
  */
-public class Article implements Serializable {
+public class Article {
     //private static final long serialVersionUID = -85708722125398142L;
 
     private Integer age;
