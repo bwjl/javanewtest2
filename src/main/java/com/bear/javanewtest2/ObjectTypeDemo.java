@@ -15,6 +15,6 @@ public class ObjectTypeDemo {
     }
 
     public static void test(Object object) {
-        System.out.println(object);
+        System.out.println(object); //Person{name='null', age=null}
     }
 }
