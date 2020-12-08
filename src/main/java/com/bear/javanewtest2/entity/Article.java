@@ -1,5 +1,8 @@
 package com.bear.javanewtest2.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.io.Serializable;
 
 /**
@@ -21,6 +24,7 @@ public class Article {
         this.age = age;
     }
 
+    @JsonProperty(value = "myUsername")
     private String name;
 
     public String getName() {
@@ -79,6 +83,7 @@ public class Article {
     /**
      * 创建时间
      */
+    @JsonIgnore
     private Object createTime;
     /**
      * 更新时间
