@@ -11,7 +11,6 @@ public class StringIntegerTransform {
 
     public static void main(String[] args) {
 
-
         Integer b = 10;
         System.out.println(String.valueOf(b));
         System.out.println(b.toString());
@@ -19,7 +18,6 @@ public class StringIntegerTransform {
 
         String a = "1";
         System.out.println(Integer.valueOf(a));
-
 
     }
 
