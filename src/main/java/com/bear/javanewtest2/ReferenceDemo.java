@@ -4,7 +4,7 @@ package com.bear.javanewtest2;
  * Created with IntelliJ IDEA.
  * User: bear
  * Date: 2020/12/11 下午10:15
- * Description: Java对象作为形参数 默认引用传值
+ * Description: Java class对象作为形参数 默认引用传值
  */
 
 public class ReferenceDemo {
@@ -17,6 +17,7 @@ public class ReferenceDemo {
         System.out.println(person.toString());
 
         Integer age = 18;
+        IntegerFunc(age);
         System.out.println(age);
 
 
