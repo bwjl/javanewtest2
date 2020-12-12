@@ -3,6 +3,7 @@ package com.bear.javanewtest2;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 
 /**
@@ -21,5 +22,12 @@ public class DateTimeDemo {
         System.out.println(LocalTime.now().format(DateTimeFormatter.ofPattern("HH:mm:ss"))); //20:58:16
         System.out.println(LocalDateTime.now()); //2020-12-12T20:53:15.140
         System.out.println(LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"))); //2020-12-12T20:53:15.140
+
+        long time = 1562569600L;
+
+        String dateTime = LocalDateTime.ofEpochSecond(time, 0, ZoneOffset.ofHours(8)).format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
+        System.out.println(dateTime);
+
+
     }
 }
