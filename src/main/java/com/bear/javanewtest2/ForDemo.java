@@ -24,6 +24,7 @@ public class ForDemo {
         }
         System.out.println(list);
 
+        //System.out.println(0 == null);
 
     }
 }
