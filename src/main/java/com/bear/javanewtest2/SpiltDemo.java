@@ -19,5 +19,7 @@ public class SpiltDemo {
         for (int i = 0; i < id.length; i++) {
             System.out.println(id[i]);
         }
+
+        System.out.println(id[3]); //ArrayIndexOutOfBoundsException
     }
 }
