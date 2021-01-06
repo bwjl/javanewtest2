@@ -12,7 +12,7 @@ public class SpiltDemo {
     public static void main(String[] args) {
         String ids = "1,2";
 
-        String id[] = ids.split(",");
+        String[] id = ids.split(",");
 
         System.out.println(id);
 
