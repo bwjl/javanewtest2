@@ -28,6 +28,10 @@ public class EntryDemo {
             System.out.println(entry.getKey() + ":" + entry.getValue());
         }
 
+        for (Map.Entry<String, String> entry : map.entrySet()) {
+            System.out.println("for:" + entry.getKey() + ":" + entry.getValue());
+        }
+
         //System.out.println();
 
     }
