@@ -12,13 +12,14 @@ import com.bear.javanewtest2.entity.UserBuilder;
 public class LomBokBuilder {
 
     public static void main(String[] args) {
-        UserBuilder.UserBuilderBuilder userBuilderBuilder = UserBuilder.builder()
+        UserBuilder userBuilder = UserBuilder.builder()
                 .age(18)
                 .name("bear")
                 .height(180.00)
-                .size(15);
+                .size(15)
+                .build();
 
-        System.out.println(userBuilderBuilder);
+        System.out.println(userBuilder);
 
     }
 
