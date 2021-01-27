@@ -15,7 +15,9 @@ public class RandomStringUtilsDemo {
         String salt1 = RandomStringUtils.random(4);
         //字母、数字
         String salt2 = RandomStringUtils.randomAlphanumeric(4);
+        String salt3 = RandomStringUtils.randomNumeric(4);
         System.out.println(salt1);
         System.out.println(salt2);
+        System.out.println(salt3);
     }
 }
