@@ -19,6 +19,9 @@ public class StringBufferDemo {
         System.out.println(stringBuffer);
         System.out.println(stringBuffer.hashCode());
 
+        StringBuffer str = new StringBuffer();
+        System.out.println("StringBuffer默认值：" + str);
+
 
     }
 }
