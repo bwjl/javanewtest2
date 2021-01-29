@@ -38,12 +38,12 @@ public class RandomStringUtilsDemo {
 
         Random random = new Random();
 
-        StringBuffer randomStr = new StringBuffer();
+        StringBuffer sb = new StringBuffer();
         for (int i = 0; i < count; i++) {
-            randomStr.append(strArray[random.nextInt(strArray.length)]);
+            sb.append(strArray[random.nextInt(strArray.length)]);
         }
 
-        return randomStr.toString();
+        return sb.toString();
 
     }
 }
