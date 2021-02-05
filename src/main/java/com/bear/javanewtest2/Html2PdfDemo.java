@@ -19,7 +19,11 @@ public class Html2PdfDemo {
     public static final String toPdfTool = "/usr/local/bin/wkhtmltopdf";
 
     public static void main(String[] args) {
-        convert("A4", "https://www.baidu.com", "/Users/bear/Desktop/baidu01-java.pdf");
+        //convert("A4", "https://www.baidu.com", "/Users/bear/Desktop/baidu01-java.pdf");
+        //convert("A4", "https://shop.jc-saas.com/h5_project/#", "/Users/bear/Desktop/jc-shop01-java.pdf");
+        //convert("A4", "http://10.10.11.6:8020/prectice/template.html?__hbt=1612341631477", "/Users/bear/Desktop/jc-shop04-java.pdf");
+        //convert("A4", "http://10.10.11.6:8020/prectice/test.svg", "/Users/bear/Desktop/jc-shop05-java.pdf");
+        convert("A4", "http://10.10.11.6:8020/prectice/template.html?__hbt=1612401233144", "/Users/bear/Desktop/jc-shop06-java.pdf");
     }
 
 
