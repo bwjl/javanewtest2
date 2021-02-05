@@ -12,12 +12,15 @@ public class StringBuilderDemo1 {
     public static void main(String[] args) {
         StringBuilder stringBuilder = new StringBuilder("efg");
 
-        System.out.println(stringBuilder);
-        System.out.println(stringBuilder.hashCode());
+//        System.out.println(stringBuilder);
+//        System.out.println(stringBuilder.hashCode());
 
-        stringBuilder.append("hi");
+        stringBuilder.append(" hi");
+        stringBuilder.append(" I");
+        stringBuilder.append(" want");
+        stringBuilder.append(" you");
         System.out.println(stringBuilder);
-        System.out.println(stringBuilder.hashCode());
+//        System.out.println(stringBuilder.hashCode());
     }
 
 }
