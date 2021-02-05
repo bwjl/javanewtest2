@@ -12,15 +12,17 @@ public class StringBufferDemo {
     public static void main(String[] args) {
 
         StringBuffer stringBuffer = new StringBuffer("abc");
-        System.out.println(stringBuffer);
-        System.out.println(stringBuffer.hashCode());
+        //System.out.println(stringBuffer);
+        //System.out.println(stringBuffer.hashCode());
 
-        stringBuffer.append("de");
+        stringBuffer.append("爱你");
+        stringBuffer.append("一万");
+        stringBuffer.append("年");
         System.out.println(stringBuffer);
-        System.out.println(stringBuffer.hashCode());
-
-        StringBuffer str = new StringBuffer();
-        System.out.println("StringBuffer默认值：" + str);
+//        System.out.println(stringBuffer.hashCode());
+//
+//        StringBuffer str = new StringBuffer();
+//        System.out.println("StringBuffer默认值：" + str);
 
 
     }
