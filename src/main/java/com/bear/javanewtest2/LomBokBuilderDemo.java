@@ -9,7 +9,7 @@ import com.bear.javanewtest2.entity.UserBuilder;
  * Description: lombok builder 用法
  */
 
-public class LomBokBuilder {
+public class LomBokBuilderDemo {
 
     public static void main(String[] args) {
         UserBuilder userBuilder = UserBuilder.builder()
