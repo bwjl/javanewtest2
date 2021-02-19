@@ -13,10 +13,10 @@ public class StringUtilsHasTextDemo {
 
     public static void main(String[] args) {
 
-        System.out.println(StringUtils.hasText(null));
-        System.out.println(StringUtils.hasText(""));
-        System.out.println(StringUtils.hasText("   "));
-        System.out.println(StringUtils.hasText(" 123  "));
+        System.out.println(StringUtils.hasText(null)); //false
+        System.out.println(StringUtils.hasText("")); //false
+        System.out.println(StringUtils.hasText("   ")); //false
+        System.out.println(StringUtils.hasText(" 123  ")); //true
 
     }
 }
