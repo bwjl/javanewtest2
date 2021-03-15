@@ -5,3 +5,5 @@
 *.ipr
 
 target/
+
+src/main/java/com/bear/javanewtest2/EasyExcelDemo.java
