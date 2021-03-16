@@ -1,4 +1,4 @@
-package com.bear.javanewtest2;
+package com.bear.javanewtest2.lombok;
 
 import com.bear.javanewtest2.entity.UserChain;
 
