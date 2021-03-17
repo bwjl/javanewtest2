@@ -16,6 +16,8 @@ public class SplitRegexDemo {
 
     public static void main(String[] args) {
         String[] ret = SRC_IMAGE.split("\\.");
+        String[] ret1 = SRC_IMAGE.split(".");
         System.out.println(Arrays.toString(ret));
+        System.out.println(Arrays.toString(ret1));
     }
 }
