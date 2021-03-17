@@ -7,7 +7,7 @@ package com.bear.javanewtest2;
  * Description:
  */
 
-public class SpiltDemo {
+public class SplitDemo {
 
     public static void main(String[] args) {
         String ids = "1,2";
