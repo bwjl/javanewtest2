@@ -11,10 +11,21 @@ package com.bear.javanewtest2;
 public class TryCatchFinallyReturnDemo {
 
     public static void main(String[] args) {
-        System.out.println(returnTest());
+        System.out.println(returnHasExceptionTest());
+        System.out.println(returnNoExceptionTest());
     }
 
-    public static int returnTest() {
+    public static int returnHasExceptionTest() {
+        try {
+            return 123;
+        } catch (Exception e) {
+            return 456;
+        } finally {
+            return 789;
+        }
+    }
+
+    public static int returnNoExceptionTest() {
         try {
             return 123;
         } catch (Exception e) {
