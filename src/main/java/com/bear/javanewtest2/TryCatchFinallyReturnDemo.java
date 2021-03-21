@@ -17,6 +17,7 @@ public class TryCatchFinallyReturnDemo {
 
     public static int returnHasExceptionTest() {
         try {
+            hasException();
             return 123;
         } catch (Exception e) {
             return 456;
@@ -33,6 +34,10 @@ public class TryCatchFinallyReturnDemo {
         } finally {
             return 789;
         }
+    }
+
+    public static void hasException() throws Exception {
+        throw new Exception("Exception");
     }
 }
 
