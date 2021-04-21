@@ -24,7 +24,7 @@ public class FastJsonDemo {
         User user = new User();
         user.setAge(18);
         user.setHeight(1.80);
-        user.setName("bear");
+        //user.setName("bear");
 
         System.out.println(JSON.toJSONString(user));
     }

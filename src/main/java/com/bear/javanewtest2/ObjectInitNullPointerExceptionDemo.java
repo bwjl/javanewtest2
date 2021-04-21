@@ -17,10 +17,10 @@ public class ObjectInitNullPointerExceptionDemo {
         //User user = null
 
         User user = null;
-
-        user.setName("bear");
-
-        System.out.println(user.getName());
+//
+//        user.setName("bear");
+//
+//        System.out.println(user.getName());
 
     }
 }

@@ -9,7 +9,7 @@ package com.bear.javanewtest2.entity;
 
 public class User {
 
-    private String name;
+    //private String name;
     private Integer age;
     private Double height;
     private int size;
@@ -22,13 +22,13 @@ public class User {
         return size;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
+//    public String getName() {
+//        return name;
+//    }
+//
+//    public void setName(String name) {
+//        this.name = name;
+//    }
 
     public Integer getAge() {
         return age;
@@ -46,7 +46,12 @@ public class User {
         this.height = height;
     }
 
+    @Override
     public String toString() {
-        return "{\"age\":" + age + ",\"height\": " + height + " ,\"name\":" + name + " ,\"size\": " + size + "}";
+        return "User{" +
+                "age=" + age +
+                ", height=" + height +
+                ", size=" + size +
+                '}';
     }
 }
