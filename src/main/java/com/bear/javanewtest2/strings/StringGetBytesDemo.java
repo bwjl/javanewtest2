@@ -11,7 +11,7 @@ import java.util.Arrays;
  *
  * @Author: bear
  * @Date: 2021/5/30 12:04 下午
- * @Description: 验证GBK、GB2312两个字节，UTF-8一个字节
+ * @Description: 验证GBK、GB2312两个字节，UTF-8一个字节，unicode 4个字节
  */
 
 
@@ -25,5 +25,7 @@ public class StringGetBytesDemo {
         System.out.println(Arrays.toString(name.getBytes("GBK")));
         //GB2312 仅简体中文
         System.out.println(Arrays.toString(name.getBytes("GB2312")));
+        //unicode 4个字节
+        System.out.println(Arrays.toString(name.getBytes("unicode")));
     }
 }
