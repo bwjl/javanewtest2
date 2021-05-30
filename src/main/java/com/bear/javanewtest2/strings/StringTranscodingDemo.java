@@ -17,6 +17,8 @@ public class StringTranscodingDemo {
         String hobby = "我爱写代码";
         System.out.println(new String(hobby.getBytes(StandardCharsets.UTF_8), StandardCharsets.UTF_8));
         System.out.println(new String(hobby.getBytes("GB2312"), "GB2312"));
+        //GB2312转UTF8乱码
+        System.out.println("GB2312转UTF8：" + new String(hobby.getBytes("GB2312"), StandardCharsets.UTF_8));
         //UTF-8转IOS-8859-1乱码
         System.out.println(new String(hobby.getBytes(StandardCharsets.UTF_8), StandardCharsets.ISO_8859_1));
         System.out.println(hobby.length());
