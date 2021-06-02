@@ -15,9 +15,10 @@ import java.util.Date;
 public class DateToTimestampDemo {
 
     public static void main(String[] args) throws ParseException {
-        String str = "2019-03-13 13:54:00";
+        //pattern 格式要匹配
+        String str = "2019-03-13";
 
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
         Date date = simpleDateFormat.parse(str);
         long time = date.getTime();
         Integer publishTime = (int) time;
@@ -25,7 +26,6 @@ public class DateToTimestampDemo {
         Long longTime = new Long(time);
         System.out.println(longTime.toString().substring(0, longTime.toString().length() - 3));
 
-        System.out.println((int) (new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").parse(str).getTime() / 1000L));
-
+        //System.out.println((int) (new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").parse(str).getTime() / 1000L));
     }
 }
