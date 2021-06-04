@@ -1,4 +1,6 @@
-package com.bear.javanewtest2;
+package com.bear.javanewtest2.strings;
+
+import lombok.SneakyThrows;
 
 import java.util.Arrays;
 
@@ -8,7 +10,6 @@ import java.util.Arrays;
  * Date: 2020/9/19 下午2:08
  * Description: 字符串转字节数组
  */
-
 public class String2ByteArrayDemo {
 
     public static void main(String[] args) {

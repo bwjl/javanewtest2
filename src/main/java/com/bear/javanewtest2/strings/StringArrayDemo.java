@@ -1,4 +1,4 @@
-package com.bear.javanewtest2;
+package com.bear.javanewtest2.strings;
 
 import java.util.Arrays;
 
