@@ -33,8 +33,11 @@ public class SimpleDateFormatDemo {
         String date1 = new SimpleDateFormat("yyyy-mm-dd HH:mm:ss").format(new Date());
         //时间格式化 hh 12小时制
         String date2 = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date());
+        //SS代表毫秒
+        String date3 = new SimpleDateFormat("yyyy-MM-dd hh:mm:SS").format(new Date());
         System.out.println(date);
         System.out.println(date1);
+        System.out.println(date2);
         System.out.println(date2);
     }
 }
