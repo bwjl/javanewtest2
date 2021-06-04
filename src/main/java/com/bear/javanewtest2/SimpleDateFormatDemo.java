@@ -35,9 +35,11 @@ public class SimpleDateFormatDemo {
         String date2 = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date());
         //SS代表毫秒
         String date3 = new SimpleDateFormat("yyyy-MM-dd hh:mm:SS").format(new Date());
+        String date4 = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
         System.out.println(date);
         System.out.println(date1);
         System.out.println(date2);
-        System.out.println(date2);
+        System.out.println(date3);
+        System.out.println(date4);
     }
 }
