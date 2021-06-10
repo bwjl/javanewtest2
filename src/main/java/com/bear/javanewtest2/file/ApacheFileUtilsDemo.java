@@ -4,6 +4,8 @@ import org.apache.commons.io.FileUtils;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
  * Created with IntelliJ IDEA.
@@ -20,6 +22,9 @@ public class ApacheFileUtilsDemo {
         String excelFileName = "/Users/bear/Desktop/apache1.xlsx";
 
         //生成的excel无法打开
-        FileUtils.touch(new File(excelFileName));
+        //FileUtils.touch(new File(excelFileName));
+        String fileDir = "/Users/bear/Desktop/" + new SimpleDateFormat("yyyyMM/dd").format(new Date())
+                + "/";
+        FileUtils.touch(new File(fileDir));
     }
 }
