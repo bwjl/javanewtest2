@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
  *
  * @Author: bear
  * @Date: 2021/6/11 5:13 下午
- * @Description:
+ * @Description: Slf4j {}占位符对应一个参数
  */
 
 public class Slf4jDemo {
@@ -20,6 +20,6 @@ public class Slf4jDemo {
         log.debug("slf4j");
         log.debug("我的名字：{}", name);
         log.info("我的名字：{}", name);
-        log.info("{}：我的名字", "笑嘻嘻");
+        log.info("{}{}：我的名字", "笑嘻嘻", "哈哈哈哈哈😂");
     }
 }
