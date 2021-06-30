@@ -26,10 +26,10 @@ public class IterateFolderFileDemo {
                 String fileName = files[i].getName();
                 System.out.println(fileName);
 
-                String[] FileArr = fileName.split("\\.");
+                String[] fileArr = fileName.split("\\.");
 
                 //允许的后缀
-                if (Arrays.asList(ALLOWED_FILE_EXT).contains(FileArr[FileArr.length - 1])) {
+                if (Arrays.asList(ALLOWED_FILE_EXT).contains(fileArr[fileArr.length - 1])) {
                     String newName = fileName.substring(0, fileName.lastIndexOf(".")) + "-1"
                             + fileName.substring(fileName.lastIndexOf("."), fileName.length());
                     System.out.println(newName);
