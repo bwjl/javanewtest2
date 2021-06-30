@@ -11,5 +11,7 @@ public class SubstringDemo {
     public static void main(String[] args) {
         String fileName = "195454u6us36fab63s131f.jpeg";
         System.out.println(fileName.substring(fileName.lastIndexOf(".") + 1));
+        System.out.println(fileName.charAt(0));
+        System.out.println(fileName.substring(0, 2));
     }
 }
