@@ -1,13 +1,14 @@
-package com.bear.javanewtest2; /**
+package com.bear.javanewtest2;
+
+import org.apache.log4j.Logger;
+
+/**
  * Created with IntelliJ IDEA.
  *
  * @Author: bear
  * @Date: 2021/3/10 3:07 下午
  * @Description: apache log4j
  */
-
-
-import org.apache.log4j.Logger;
 
 public class Log4jDemo {
 
