@@ -6,22 +6,12 @@ import java.util.Arrays;
  * Created with IntelliJ IDEA.
  * User: bear
  * Date: 2020/7/5 下午12:22
- * Description:
+ * Description: Integer.parseInt(String) 字符串转Integer
  */
 
-public class ParseIntTest {
+public class ParseIntDemo {
 
     public static void main(String[] args) {
-
-//        try {
-//            String classroom = "001hello";
-//            System.out.println(Integer.parseInt(classroom));
-//            System.out.println(Integer.valueOf(classroom));
-//        } catch (NumberFormatException e) {
-//            System.out.println(e.getMessage());
-//        } finally {
-//            System.out.println("finally");
-//        }
 
         String classroom = "001";
         System.out.println(Integer.parseInt(classroom));
