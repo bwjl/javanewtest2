@@ -118,4 +118,38 @@ public class GsonFormatDemo {
         @JsonProperty("backgroundPositon")
         private String backgroundPositon;
     }
+
+    @Override
+    public String toString() {
+        return "GsonFormatDemo{" +
+                "designWidth=" + designWidth +
+                ", name='" + name + '\'' +
+                ", type='" + type + '\'' +
+                ", width='" + width + '\'' +
+                ", height='" + height + '\'' +
+                ", upDownSpace=" + upDownSpace +
+                ", leftRightSpace=" + leftRightSpace +
+                ", backgroundImage='" + backgroundImage + '\'' +
+                ", backgroundColor='" + backgroundColor + '\'' +
+                ", machineName='" + machineName + '\'' +
+                ", industry=" + industry +
+                ", texture=" + texture +
+                ", perRollNum=" + perRollNum +
+                ", borderRadius=" + borderRadius +
+                ", els=" + els +
+                ", priceIds=" + priceIds +
+                ", templateName='" + templateName + '\'' +
+                ", templateCode='" + templateCode + '\'' +
+                ", goodsSpu='" + goodsSpu + '\'' +
+                ", mininumPurchase='" + mininumPurchase + '\'' +
+                ", mininumVariable='" + mininumVariable + '\'' +
+                ", goodsName='" + goodsName + '\'' +
+                ", status='" + status + '\'' +
+                ", colorList=" + colorList +
+                ", templateId=" + templateId +
+                ", machineId=" + machineId +
+                ", craftId=" + craftId +
+                ", saleName='" + saleName + '\'' +
+                '}';
+    }
 }
